@@ -1,0 +1,40 @@
+// http://ionicframework.com/docs/theming/
+@import '~@ionic/angular/css/core.css';
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+
+:root {
+    --ion-background-color: transparent;
+}
+
+.alert-wrapper.sc-ion-alert-md{
+    --background: #ffffff;
+    --width: 50%;
+    --max-width: 60%;
+}
+
+@media only screen and (min-height: 768px) and (min-width: 768px) {
+    .modal-wrapper.sc-ion-modal-ios, .modal-wrapper.sc-ion-modal-ios{
+        --width: 88%;
+        --height: 85%;
+        --background: #ffffff;
+    }
+    .alert-wrapper.sc-ion-alert-ios, .alert-wrapper.sc-ion-alert-md{
+        --width: 65%;
+        --max-width: 70%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .alert-wrapper.sc-ion-alert-ios, .alert-wrapper.sc-ion-alert-md{
+        --width: 85%;
+        --max-width: 90%;
+    }
+  }

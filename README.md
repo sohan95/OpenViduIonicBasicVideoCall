@@ -1,2 +1,3 @@
-# OpenViduIonicBasicVideoCall
-It is a OpenVidu ionic project to fo video conference 
+# openvidu-call-ionic
+
+You can see the documentation [here](https://openvidu.io/docs/demos/openvidu-call-ionic/) 
